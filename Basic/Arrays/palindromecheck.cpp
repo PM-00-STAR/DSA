@@ -1,27 +1,27 @@
-// #include<iostream>
-// using namespace std;
+ #include<iostream>
+using namespace std;
 
-// int main(){
-//     int n;
-//     cin>>n;
+ int main(){
+   int n;
+    cin>>n;
 
-//     char arr[n+1];
-//     cin>>arr;
+    char arr[n+1];
+    cin>>arr;
 
-//     bool check = true; //or check = 1
+     bool check = true; //or check = 1
 
-//     for(int i=0;i<n;i++){
-//         if(arr[i] != arr[n-1-i]){ 
-//            check = false;  //or check = 0
-//            break;
-//         }
-//     }
-//     if(check == true){ //use comparison operator ==  only here in printing condition
-//     cout<<"it is  a palindrome"<<endl;
-//     }
-//     else{
-//         cout<<"it is not a palindrome"<<endl;
-//     }
+    for(int i=0;i<n;i++){
+         if(arr[i] != arr[n-1-i]){ 
+           check = false;  //or check = 0
+           break;
+       }
+    }
+    if(check == true){ //use comparison operator ==  only here in printing condition
+     cout<<"it is  a palindrome"<<endl;
+     }
+     else{
+        cout<<"it is not a palindrome"<<endl;
+    }
 
-//     return 0;
-// }
+     return 0;
+ }
